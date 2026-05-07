@@ -1,10 +1,22 @@
 ---
 layout: page
 permalink: /repositories/
-title: repositories
+title: selected repositories
 description:
 nav: true
 nav_order: 2
+---
+
+
+{% if site.data.repositories.github_repos %}
+
+<div class="repositories d-flex flex-column align-items-start">
+  {% for repo in site.data.repositories.github_repos %}
+    {% include repository/repo.liquid repository=repo %}
+  {% endfor %}
+</div>
+{% endif %}
+
 ---
 
 {% if site.data.repositories.github_users %}
@@ -16,8 +28,7 @@ nav_order: 2
     {% include repository/repo_user.liquid username=user %}
   {% endfor %}
 </div>
-
----
+{% endif %}
 
 {% if site.repo_trophies.enabled %}
 {% for user in site.data.repositories.github_users %}
@@ -32,16 +43,4 @@ nav_order: 2
 ---
 
 {% endfor %}
-{% endif %}
-{% endif %}
-
-{% if site.data.repositories.github_repos %}
-
-## select repositories
-
-<div class="repositories d-flex flex-column align-items-start">
-  {% for repo in site.data.repositories.github_repos %}
-    {% include repository/repo.liquid repository=repo %}
-  {% endfor %}
-</div>
 {% endif %}
