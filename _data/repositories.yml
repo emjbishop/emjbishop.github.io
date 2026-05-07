@@ -1,14 +1,12 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - emjbishop
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - getwilds/wilds-wdl-library
+  - getwilds/wilds-docker-library
+  - seshadrilab/tcrconvert
+  - seshadrilab/tcrconvertr
+  - seshadrilab/bcg-dermal-immunity
+  - emjbishop/thesis-scripts
