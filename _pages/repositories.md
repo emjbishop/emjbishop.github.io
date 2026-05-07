@@ -7,40 +7,20 @@ nav: true
 nav_order: 2
 ---
 
+[getwilds/wilds-wdl-library](https://github.com/getwilds/wilds-wdl-library)
 
-{% if site.data.repositories.github_repos %}
+[getwilds/wilds-docker-library](https://github.com/getwilds/wilds-docker-library)
 
-<div class="repositories d-flex flex-column align-items-start">
-  {% for repo in site.data.repositories.github_repos %}
-    {% include repository/repo.liquid repository=repo %}
-  {% endfor %}
-</div>
-{% endif %}
+[seshadrilab/tcrconvert](https://github.com/seshadrilab/tcrconvert)
 
----
+[seshadrilab/tcrconvertr](https://github.com/seshadrilab/tcrconvertr)
 
-{% if site.data.repositories.github_users %}
+[seshadrilab/bcg-dermal-immunity](https://github.com/seshadrilab/bcg-dermal-immunity)
 
-##  github username
-
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for user in site.data.repositories.github_users %}
-    {% include repository/repo_user.liquid username=user %}
-  {% endfor %}
-</div>
-{% endif %}
-
-{% if site.repo_trophies.enabled %}
-{% for user in site.data.repositories.github_users %}
-{% if site.data.repositories.github_users.size > 1 %}
-
-  <h4>{{ user }}</h4>
-  {% endif %}
-  <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% include repository/repo_trophies.liquid username=user %}
-  </div>
+[emjbishop/thesis-scripts](https://github.com/emjbishop/thesis-scripts)
 
 ---
 
-{% endfor %}
-{% endif %}
+## github profile
+
+[emjbishop](https://github.com/emjbishop)
