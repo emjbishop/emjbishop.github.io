@@ -128,30 +128,20 @@ cv:
         awarder: San Diego State University
 
     Publications:
+
       - title: "BCG vaccination induces antibacterial effector functions among Vδ1/3 T cells that are associated with protection against tuberculosis"
-        authors:
-          - Emma Bishop
-          - et al.
+
+      - title: "IFN-gamma-GranzymeB+ Natural killer cells are induced by IV BCG vaccination and associated with protection against tuberculosis in rhesus macaques"
+
+      - title: "Automated Discovery of Patterns in T-Cell Receptor Physicochemical Signatures"
 
       - title: "Probing Dermal Immunity to Mycobacteria through a Controlled Human Infection Model"
-        authors:
-          - Emma Bishop
-          - et al.
-
-      - title: "Hybran: Hybrid Reference Transfer and ab initio Prokaryotic Genome Annotation"
-        authors:
-          - Emma Bishop
-          - et al.
 
       - title: "PBHoover and Hybran: Tools for studying genomic features in Mycobacterium tuberculosis"
-        authors:
-          - Emma Bishop
-          - et al.
+
+      - title: "Hybran: Hybrid Reference Transfer and ab initio Prokaryotic Genome Annotation"
 
       - title: "Caffeine extends life span, improves healthspan, and delays age-associated pathology in Caenorhabditis elegans"
-        authors:
-          - Emma Bishop
-          - et al.
 
     Skills:
       - name: Programming
