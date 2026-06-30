@@ -31,3 +31,5 @@ Before joining Fred Hutch, I spent nearly four years as a bioinformatician in th
 My path into bioinformatics was a bit nonlinear. I spent several years in clinical research coordinating oncology and immunotherapy trials at institutions like the Benaroya Research Institute and UC San Diego Health. I pivoted to computational biology because I saw the increasing importance of genomic data in patient care. I taught myself Python, went back to school, and earned an M.S. in Bioinformatics from San Diego State University in 2023, where I worked in the [Valafar Lab](https://tuberculosis.sdsu.edu/) building tools to study clinical *Mycobacterium tuberculosis* genomes.
 
 I'm fluent in Python, R, bash, and WDL, and comfortable building everything from one-off analyses to production pipelines deployed on AWS and Google Cloud. I'm genuinely interested in how methods from tech can be applied to biomedical research to accelerate what we're doing here.
+
+You can reach me at ebishop [at] fredhutch [dot] org
